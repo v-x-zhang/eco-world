@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c95ca52216fa3a4eb7ca32d5a8ad61d, type: 3}
+  m_Name: Default Object Settings
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  spawnableObjects:
+  - objectPrefab: {fileID: 5441309773261940445, guid: 8a0ca852ed1b5824fa1cbfcd51b693ad, type: 3}
+    objectName: Rock 3
+    startHeight: 3
+    endHeight: 7
+    spawnChance: 1
+    randomizePosition: 1
+    randomizePositionProperties: {x: 10, y: 0, z: 10}
+    alignToGround: 1
+    randomizeRotation: 1
+    randomizeRotationProperties: {x: 5, y: 5, z: 5}
+    randomizeScale: 1
+    randomizeScaleProperties: {x: 0.2, y: 0.2, z: 0.2}
+    offsetPosition: {x: 0, y: -0.25, z: 0}
+    offsetRotation: {x: 0, y: 0, z: 0}
+    offsetScale: {x: 0, y: 0, z: 0}
+  - objectPrefab: {fileID: 7171424301308525340, guid: 872dbc72818e85749a48c919557d37a0, type: 3}
+    objectName: Rock Group 1
+    startHeight: 3
+    endHeight: 7
+    spawnChance: 1
+    randomizePosition: 1
+    randomizePositionProperties: {x: 10, y: 0, z: 10}
+    alignToGround: 1
+    randomizeRotation: 1
+    randomizeRotationProperties: {x: 5, y: 180, z: 5}
+    randomizeScale: 1
+    randomizeScaleProperties: {x: 0.2, y: 0.2, z: 0.2}
+    offsetPosition: {x: 0, y: -0.5, z: 0}
+    offsetRotation: {x: 0, y: 0, z: 0}
+    offsetScale: {x: 0, y: 0, z: 0}
+  - objectPrefab: {fileID: 6862017900574335598, guid: 956bc949c20673347bb445c6ad05ace0, type: 3}
+    objectName: Tree3
+    startHeight: 3
+    endHeight: 7
+    spawnChance: 2
+    randomizePosition: 1
+    randomizePositionProperties: {x: 10, y: 0, z: 10}
+    alignToGround: 0
+    randomizeRotation: 1
+    randomizeRotationProperties: {x: 5, y: 180, z: 5}
+    randomizeScale: 1
+    randomizeScaleProperties: {x: 0.2, y: 0.2, z: 0.2}
+    offsetPosition: {x: 0, y: -0.5, z: 0}
+    offsetRotation: {x: 0, y: 0, z: 0}
+    offsetScale: {x: 0, y: 0, z: 0}
+  - objectPrefab: {fileID: 7345940949868489353, guid: 0d7c7c62a0b7df94ebd0f945fa20af98, type: 3}
+    objectName: Tree2
+    startHeight: 3
+    endHeight: 7
+    spawnChance: 2
+    randomizePosition: 1
+    randomizePositionProperties: {x: 10, y: 0, z: 10}
+    alignToGround: 0
+    randomizeRotation: 1
+    randomizeRotationProperties: {x: 5, y: 180, z: 5}
+    randomizeScale: 1
+    randomizeScaleProperties: {x: 0.2, y: 0.2, z: 0.2}
+    offsetPosition: {x: 0, y: 3, z: 0}
+    offsetRotation: {x: -90, y: 0, z: 0}
+    offsetScale: {x: 0, y: 0, z: 0}
+  grassObjects:
+  - objectPrefab: {fileID: 8517288631559517239, guid: 7d96c4657b5ede346b8bbbf057bd38c5, type: 3}
+    objectName: Grass Patch 1
+    startHeight: 2.5
+    endHeight: 8
+    spawnChance: 45
+    randomizePosition: 1
+    randomizePositionProperties: {x: 1, y: 0, z: 1}
+    alignToGround: 0
+    randomizeRotation: 1
+    randomizeRotationProperties: {x: 0, y: 180, z: 0}
+    randomizeScale: 1
+    randomizeScaleProperties: {x: 0.2, y: 0, z: 0.2}
+    offsetPosition: {x: 0, y: 17.3, z: 0}
+    offsetRotation: {x: 0, y: 0, z: 0}
+    offsetScale: {x: 1, y: 2, z: 1}
+  slopeHeightMax: 10
+  nearbyObjectCheckRadius: 10
+  nearbyObjectLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 64
